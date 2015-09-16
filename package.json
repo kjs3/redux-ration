@@ -1,7 +1,7 @@
 {
   "name": "redux-rentals",
   "version": "1.0.0",
-  "description": "An example rentals app build in small steps using Redux.",
+  "description": "An example rentals app built in small steps using Redux.",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --history-api-fallback --no-info --port 3000 --devtool cheap-eval-source-map --config webpack.config.js",
     "test": "mocha --recursive --compilers js:babel-core/register",
