@@ -1,0 +1,38 @@
+{
+  "name": "redux-rentals",
+  "version": "1.0.0",
+  "description": "An example rentals app build in small steps using Redux.",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --history-api-fallback --no-info --port 3000 --devtool cheap-eval-source-map --config webpack.config.js",
+    "test": "mocha --recursive --compilers js:babel-core/register",
+    "test:watch": "mocha --recursive --watch --no-exit --growl --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjs3/redux-rentals.git"
+  },
+  "author": "Kenny Smith <kjs3@kjs3.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjs3/redux-rentals/issues"
+  },
+  "homepage": "https://github.com/kjs3/redux-rentals",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.18.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "mocha": "^2.3.2",
+    "node-sass": "^3.3.2",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^2.0.1",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.12.1",
+    "webpack-dev-server": "^1.11.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "redux": "^3.0.0"
+  }
+}
