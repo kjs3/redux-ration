@@ -1,0 +1,41 @@
+@import "~normalize.css/normalize.css";
+
+html, body, #root, #root main {
+  height: 100%;
+}
+
+#root main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+header.page-header {
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+section.search-form {
+  margin-top: 2rem;
+
+  form {
+    display: flex;
+    width: 100%;
+
+    input {
+      box-sizing: border-box;
+
+      &[type=search] {
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+section.search-results {
+  flex-grow: 1;
+  margin-top: 2rem;
+}

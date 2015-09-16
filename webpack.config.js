@@ -1,15 +1,20 @@
 var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  context: path.join(__dirname, 'src'),
   entry: [
     './index.js'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'js/bundle.js',
-    publicPath: '/static/'
+    publicPath: '/'
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [
@@ -19,6 +24,10 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin('css/bundle.css')
+    new webpack.NoErrorsPlugin(),
+    new ExtractTextPlugin('css/bundle.css'),
+    new HtmlWebpackPlugin({
+      template: './src/index.html'
+    })
   ]
 };
