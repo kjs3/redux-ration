@@ -1,5 +1,5 @@
 {
-  "name": "redux-rentals",
+  "name": "redux-ration",
   "version": "1.0.0",
   "description": "An example restaurant search app built in small steps using Redux.",
   "scripts": {
