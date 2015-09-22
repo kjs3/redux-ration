@@ -10,11 +10,11 @@ const App = React.createClass({
     return (
       <main>
         <header className='page-header'>
-          <h1>Redux Rentals</h1>
+          <h1>Redux Ration</h1>
         </header>
         <section className='search-form'>
           <form onSubmit={this.handleSubmit}>
-            <input ref='searchInput' type='search' placeholder='Enter a zip code' autoFocus={true} />
+            <input ref='searchInput' type='search' placeholder='Enter type of food' autoFocus={true} />
             <input type='submit'  value='search' />
           </form>
         </section>
