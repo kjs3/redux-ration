@@ -1,4 +1,4 @@
-# redux-rentals
+# Redux Ration
 
 ### Step 1
 ##### Getting package.json and webpack-dev-server up and running with hot-module-replacement

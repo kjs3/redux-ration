@@ -1,7 +1,7 @@
 {
-  "name": "redux-rentals",
+  "name": "redux-ration",
   "version": "1.0.0",
-  "description": "An example rentals app build in small steps using Redux.",
+  "description": "An example ration app build in small steps using Redux.",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --history-api-fallback --no-info --port 3000 --devtool cheap-eval-source-map --config webpack.config.js",
     "test": "mocha --recursive --compilers js:babel-core/register",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kjs3/redux-rentals.git"
+    "url": "git+https://github.com/kjs3/redux-ration.git"
   },
   "author": "Kenny Smith <kjs3@kjs3.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kjs3/redux-rentals/issues"
+    "url": "https://github.com/kjs3/redux-ration/issues"
   },
-  "homepage": "https://github.com/kjs3/redux-rentals",
+  "homepage": "https://github.com/kjs3/redux-ration",
   "devDependencies": {
     "autoprefixer-loader": "^3.1.0",
     "babel-core": "^5.8.24",
