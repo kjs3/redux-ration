@@ -1,4 +1,4 @@
-# redux-rentals
+# Redux Ration
 
 ### Step 2
 
